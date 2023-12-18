@@ -19,5 +19,5 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ./main.bicep
-                  parameters: storagename=marctre12123
+                  parameters: storageName=marctre12123
                   failOnStdErr: false
